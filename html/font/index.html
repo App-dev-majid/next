@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom fonts</title>
+    <style>
+
+/* latin */
+@font-face {
+  font-family: 'ayoub';
+  src: url(fontOne.woff2) format('woff2');
+}
+
+
+
+div{
+    background: linear-gradient(#f81616, #0217f7);
+    font-family: 'ayoub';
+    font-size: 30px;
+    color : white;
+    text-transform: capitalize;
+}
+
+div:hover{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+ }
+ .vid{
+display: block;
+width:90%;
+
+     margin : 10px auto; 
+ }
+    </style>
+</head>
+<body>
+    <div class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus facilis ab iste dignissimos mollitia quaerat. Eius hic assumenda veritatis explicabo temporibus repellat cumque impedit, sint fugit illo consectetur ea consequuntur.</div>
+
+
+    <audio src="../assets/audio.mp3" controls></audio>
+    <video class="vid" src="../assets/mov_bbb.mp4" controls></video>
+
+<script>
+    console.log(document.querySelector('div'));
+    console.dir(document.querySelector('div'));
+</script>
+
+</body>
+</html>

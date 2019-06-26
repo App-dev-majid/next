@@ -1,0 +1,21 @@
+.one{
+   display: flex;
+   justify-content:space-between;
+   align-items: stretch;
+   background-color: rgba(106, 180, 103, 0.63);
+}
+
+.big{
+    flex-grow:10;
+    width:100px;
+    height:100px;
+    background-color: rgba(218, 65, 192, 0.63);
+    border : 6px solid  rgba(85, 27, 46, 0.63);
+}
+.boxed{
+    flex-grow: 1;
+    width:100px;
+    background-color: rgba(80, 69, 182, 0.63);
+    border : 6px solid  rgba(25, 161, 20, 0.63);
+    box-sizing: border-box;
+}

@@ -1,0 +1,98 @@
+body{
+    background-color: rgba(137, 137, 138, 0.589);
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+}
+.bgheader{
+    position: absolute;
+    right: 0;
+    top:20px;
+}
+main {
+    height:450px;
+}
+main > div.menu {
+    border-bottom: 7px solid green;
+    height: 50px;
+
+}
+div.menu > ul {
+    list-style-type: none;
+    float: right;
+}
+div.menu > ul > li {
+     display: inline;
+     background-color: green;
+     padding: 10px;
+     border-radius: 5px 5px 0 0;
+     box-sizing: border-box;
+}
+div.menu > ul > li:hover {
+    background-color: #72aa21;
+}
+main > div{
+    /*Commun a gauche et droite*/
+    height: 90%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    border-bottom: .5px solid green;
+
+
+}
+main > div.left{
+    float: left;
+    width: 33.33%;
+}
+
+main > div.right{
+    float: right;
+    width: 66.66%;
+    border-left: .5px solid green;
+}
+
+main > div > h2 {
+    color:#ffb700;
+    font-family: arial;
+}
+main > div.right >ul{
+    list-style-image: url(./img/puce.png);
+}
+main > div.right > ul >li{
+    background-color: rgba(137, 137, 138, 0.589);
+    color: #72aa21;
+    font-family: arial;
+    margin-bottom: 2px;
+    border-radius: 0 5px 5px 0;
+}
+.orange{
+    color:#ffb700;
+}
+.vert{
+    color: #72aa21;
+}
+main > div h3{
+    color: #72aa21;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    margin-block-start: 0;
+
+}
+.logo{
+    position: absolute;
+    left:20px;
+    top:127px;
+}
+header{
+    position: relative;
+    min-height: 320px;
+}
+
+footer{
+    text-align: right;
+    color: rgba(137, 137, 138, 0.589);
+    height: 32px;
+}
