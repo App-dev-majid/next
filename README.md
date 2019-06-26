@@ -1,2 +1,6 @@
-# next
-cours de git avec DWWM 2019
+# next repo cours
+```javascript
+    ()=>{
+        console.log("test")
+    }
+```
